@@ -1,0 +1,310 @@
+{
+  "alerts": [
+    {
+      "id": "alert_1771613162_990",
+      "timestamp": 1771613162.6731925,
+      "datetime": "2026-02-21T00:16:02.673193",
+      "confidence": 0.99,
+      "source": "manual-test",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972159808539715,
+        "lng": 77.73324909376952,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771613525_877",
+      "timestamp": 1771613525.6231027,
+      "datetime": "2026-02-21T00:22:05.623103",
+      "confidence": 0.8777115345001221,
+      "source": "video:fight.avi",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771613631_784",
+      "timestamp": 1771613631.2449198,
+      "datetime": "2026-02-21T00:23:51.244920",
+      "confidence": 0.7849822640419006,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771613652_765",
+      "timestamp": 1771613652.7942505,
+      "datetime": "2026-02-21T00:24:12.794250",
+      "confidence": 0.7652847766876221,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771613658_780",
+      "timestamp": 1771613658.1507123,
+      "datetime": "2026-02-21T00:24:18.150712",
+      "confidence": 0.7806318998336792,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771613663_774",
+      "timestamp": 1771613663.2124667,
+      "datetime": "2026-02-21T00:24:23.212467",
+      "confidence": 0.7740522027015686,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771614014_744",
+      "timestamp": 1771614014.5272622,
+      "datetime": "2026-02-21T00:30:14.527262",
+      "confidence": 0.7442103028297424,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771614019_707",
+      "timestamp": 1771614019.6153402,
+      "datetime": "2026-02-21T00:30:19.615340",
+      "confidence": 0.7077761292457581,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771614029_811",
+      "timestamp": 1771614029.4888139,
+      "datetime": "2026-02-21T00:30:29.488814",
+      "confidence": 0.8111473917961121,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771614034_758",
+      "timestamp": 1771614034.4920216,
+      "datetime": "2026-02-21T00:30:34.492022",
+      "confidence": 0.7585682272911072,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771614041_857",
+      "timestamp": 1771614041.4972062,
+      "datetime": "2026-02-21T00:30:41.497206",
+      "confidence": 0.8573096990585327,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972161911580645,
+        "lng": 77.73325308508267,
+        "accuracy": 67
+      }
+    },
+    {
+      "id": "alert_1771614597_877",
+      "timestamp": 1771614597.9385674,
+      "datetime": "2026-02-21T00:39:57.938567",
+      "confidence": 0.8778286576271057,
+      "source": "video:fight.avi",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614613_792",
+      "timestamp": 1771614613.763942,
+      "datetime": "2026-02-21T00:40:13.763942",
+      "confidence": 0.7923637628555298,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614618_765",
+      "timestamp": 1771614618.881771,
+      "datetime": "2026-02-21T00:40:18.881771",
+      "confidence": 0.7657740712165833,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614624_754",
+      "timestamp": 1771614624.1594977,
+      "datetime": "2026-02-21T00:40:24.159498",
+      "confidence": 0.7548829317092896,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614629_760",
+      "timestamp": 1771614629.3724322,
+      "datetime": "2026-02-21T00:40:29.372432",
+      "confidence": 0.7604557871818542,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614634_749",
+      "timestamp": 1771614634.525059,
+      "datetime": "2026-02-21T00:40:34.525059",
+      "confidence": 0.7494423985481262,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614639_733",
+      "timestamp": 1771614639.5314786,
+      "datetime": "2026-02-21T00:40:39.531479",
+      "confidence": 0.7339872121810913,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614658_811",
+      "timestamp": 1771614658.8794107,
+      "datetime": "2026-02-21T00:40:58.879411",
+      "confidence": 0.8113489151000977,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614663_751",
+      "timestamp": 1771614663.8964243,
+      "datetime": "2026-02-21T00:41:03.896424",
+      "confidence": 0.7510427832603455,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614669_843",
+      "timestamp": 1771614669.0035322,
+      "datetime": "2026-02-21T00:41:09.003532",
+      "confidence": 0.8438394665718079,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771614674_742",
+      "timestamp": 1771614674.2402077,
+      "datetime": "2026-02-21T00:41:14.240208",
+      "confidence": 0.7427116632461548,
+      "source": "webcam",
+      "frame_data": null,
+      "location": {
+        "lat": 12.972178277018532,
+        "lng": 77.73327069646693,
+        "accuracy": 70
+      }
+    },
+    {
+      "id": "alert_1771615287_865",
+      "timestamp": 1771615287.1137607,
+      "datetime": "2026-02-21T00:51:27.113761",
+      "confidence": 0.8651496767997742,
+      "source": "webcam",
+      "frame_data": null,
+      "location": null
+    },
+    {
+      "id": "alert_1771615310_867",
+      "timestamp": 1771615310.9407187,
+      "datetime": "2026-02-21T00:51:50.940719",
+      "confidence": 0.8672414422035217,
+      "source": "webcam",
+      "frame_data": null,
+      "location": null
+    }
+  ],
+  "total_count": 24,
+  "last_updated": "2026-02-21T00:51:50.940718"
+}

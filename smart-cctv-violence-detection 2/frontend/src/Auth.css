@@ -1,0 +1,376 @@
+/* ════════════════════════════════════════════════════════════
+   AUTH — Login / Register page
+   ════════════════════════════════════════════════════════════ */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.auth-logo {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.auth-logo-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.auth-logo h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.auth-logo p {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+/* ── Tabs ── */
+.auth-tabs {
+  display: flex;
+  border-bottom: 2px solid #f0f0f0;
+  margin-bottom: 24px;
+}
+
+.auth-tab {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaa;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.auth-tab.active {
+  color: #222;
+  border-bottom-color: #333;
+}
+
+/* ── Form ── */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #555;
+}
+
+.auth-error {
+  background: #fff0f0;
+  color: #c62828;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  border-left: 3px solid #c62828;
+}
+
+.auth-submit {
+  padding: 12px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-top: 4px;
+}
+
+.auth-submit:hover  { opacity: 0.85; }
+.auth-submit:disabled { opacity: 0.5; cursor: not-allowed; }
+
+
+/* ════════════════════════════════════════════════════════════
+   ADMIN DASHBOARD
+   ════════════════════════════════════════════════════════════ */
+
+.dash-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+/* ── Header ── */
+.dash-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: white;
+  border-radius: 10px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  gap: 16px;
+}
+
+.dash-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.dash-subtitle {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+.dash-header-actions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* ── Stats cards ── */
+.dash-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.dash-stat-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.dash-stat-value {
+  font-size: 30px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.dash-stat-label {
+  font-size: 11px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+/* ── Alert table section ── */
+.dash-section {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.dash-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.dash-section-header h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.dash-table-wrapper {
+  overflow-x: auto;
+}
+
+.dash-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.dash-table th {
+  text-align: left;
+  padding: 10px 14px;
+  background: #fafafa;
+  border-bottom: 2px solid #eee;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #888;
+  font-weight: 600;
+}
+
+.dash-table td {
+  padding: 13px 14px;
+  border-bottom: 1px solid #f3f3f3;
+  vertical-align: middle;
+}
+
+.dash-table tr:last-child td { border-bottom: none; }
+.dash-table tr:hover td      { background: #fafafa; }
+
+.dash-td-num {
+  color: #bbb;
+  font-size: 13px;
+  width: 40px;
+}
+
+/* ── Confidence badges ── */
+.conf-badge {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.conf-high   { background: #ffeaea; color: #c62828; }
+.conf-medium { background: #fff3e0; color: #e65100; }
+.conf-low    { background: #e8f5e9; color: #2e7d32; }
+
+/* ── Location link ── */
+.loc-link {
+  color: #1565c0;
+  text-decoration: none;
+  font-size: 13px;
+}
+.loc-link:hover { text-decoration: underline; }
+
+
+/* ════════════════════════════════════════════════════════════
+   SHARED MAIN-APP HEADER NAV (used in App.js)
+   ════════════════════════════════════════════════════════════ */
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.header-user {
+  font-size: 13px;
+  color: #888;
+}
+
+.header-user strong {
+  color: #444;
+}
+
+/* ── Error banner ── */
+.dash-error-banner {
+  background: #fff0f0;
+  border-left: 4px solid #c62828;
+  color: #c62828;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+/* ── Feedback messages ── */
+.dash-feedback {
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+.dash-feedback.ok  { background: #e8f5e9; color: #2e7d32; border-left: 4px solid #43a047; }
+.dash-feedback.err { background: #fff0f0; color: #c62828; border-left: 4px solid #e53935; }
+
+/* ── System status grid ── */
+.sys-status-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.sys-status-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #fafafa;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+.sys-status-item span { color: #888; flex-shrink: 0; }
+.sys-status-item strong { margin-left: auto; text-align: right; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .dash-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dash-header {
+    flex-direction: column;
+  }
+
+  .dash-header-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .header-nav {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
